@@ -7,10 +7,9 @@ on:
     - "./api/**"
     - ".github/workflows/api-ci.yml"
 
-
-    defaults:
-      run:
-        working-directory: ./api
+defaults:
+  run:
+    working-directory: ./api
 
 jobs:
   unit-test:
